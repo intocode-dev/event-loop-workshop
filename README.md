@@ -27,7 +27,7 @@ classDef Input fill:#FCFFB2,color:#333333
 - Each Phase has a FIFO queue of callbacks to execute
 - `nextTick` callbacks go into `nextTickQueue`
 - `Promise` callbacks go into `MicrotaskQueue`
-- `nextTick` and Microtask's callbacks are in all phases
+- `nextTick` and Microtask's queues are in all phases
 
 ## Reference
 
